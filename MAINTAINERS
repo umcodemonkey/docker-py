@@ -1,6 +1,6 @@
-# Docker-py maintainers file
+# docker-sdk-python maintainers file
 #
-# This file describes who runs the docker/docker-py project and how.
+# This file describes who runs the docker/docker-sdk-python project and how.
 # This is a living document - if you see something out of date or missing, speak up!
 #
 # It is structured to be consumable by both humans and programs.

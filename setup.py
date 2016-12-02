@@ -48,7 +48,7 @@ setup(
     version=version,
     description="A Python library for the Docker Engine API.",
     long_description=long_description,
-    url='https://github.com/docker/docker-py',
+    url='https://github.com/docker/docker-sdk-python',
     packages=find_packages(exclude=["tests.*", "tests"]),
     install_requires=requirements,
     tests_require=test_requirements,

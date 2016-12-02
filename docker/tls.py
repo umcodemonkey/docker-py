@@ -38,7 +38,7 @@ class TLSConfig(object):
         self.assert_fingerprint = assert_fingerprint
 
         # TLS v1.0 seems to be the safest default; SSLv23 fails in mysterious
-        # ways: https://github.com/docker/docker-py/issues/963
+        # ways: https://github.com/docker/docker-sdk-python/issues/963
 
         self.ssl_version = ssl_version or ssl.PROTOCOL_TLSv1
 

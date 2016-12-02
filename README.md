@@ -1,8 +1,10 @@
 # Docker SDK for Python
 
-[![Build Status](https://travis-ci.org/docker/docker-py.svg?branch=master)](https://travis-ci.org/docker/docker-py)
+[![Build Status](https://travis-ci.org/docker/docker-sdk-python.svg?branch=master)](https://travis-ci.org/docker/docker-sdk-python)
 
-**Warning:** This readme is for the development version of docker-py, which is significantly different to the stable version. [Documentation for the stable version is here.](https://docker-py.readthedocs.io/)
+**Warning:** This README is for the development version of the Docker SDK for
+Python, which is significantly different to the stable version.
+[Documentation for the stable version is here.](https://docker-sdk-python.readthedocs.io/)
 
 A Python library for the Docker Engine API. It lets you do anything the `docker` command does, but from within Python apps – run containers, manage containers, manage Swarms, etc.
 
@@ -10,7 +12,7 @@ A Python library for the Docker Engine API. It lets you do anything the `docker`
 
 The latest stable version [is available on PyPi](https://pypi.python.org/pypi/docker/). Either add `docker` to your `requirements.txt` file or install with pip:
 
-    pip install docker-py
+    pip install docker
 
 ## Usage
 
@@ -72,4 +74,4 @@ You can manage images:
 [<Image 'ubuntu'>, <Image 'nginx'>, ...]
 ```
 
-[Read the full documentation](https://docker-py.readthedocs.io) to see everything you can do.
+[Read the full documentation](https://docker-sdk-python.readthedocs.io) to see everything you can do.

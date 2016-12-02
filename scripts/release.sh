@@ -10,7 +10,7 @@ if [ -z "$(command -v pandoc 2> /dev/null)" ]; then
 fi
 
 VERSION=$1
-REPO=docker/docker-py
+REPO=docker/docker-sdk-python
 GITHUB_REPO=git@github.com:$REPO
 
 if [ -z $VERSION ]; then

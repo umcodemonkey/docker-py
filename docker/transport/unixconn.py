@@ -80,7 +80,7 @@ class UnixAdapter(requests.adapters.HTTPAdapter):
         # doesn't have a hostname, like is the case when using a UNIX socket.
         # Since proxies are an irrelevant notion in the case of UNIX sockets
         # anyway, we simply return the path URL directly.
-        # See also: https://github.com/docker/docker-py/issues/811
+        # See also: https://github.com/docker/docker-sdk-python/issues/811
         return request.path_url
 
     def close(self):
